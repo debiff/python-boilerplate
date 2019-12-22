@@ -9,6 +9,6 @@ ADD pyproject.toml .
 RUN poetry install --no-dev
 
 COPY .ci/entrypoint.sh .
-COPY src .
+COPY src ./src
 
 ENTRYPOINT ["/app/entrypoint.sh"]

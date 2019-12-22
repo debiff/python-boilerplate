@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  web:
+    container_name: web
+    volumes:
+      - './src:/app/src'
+    build:
+      context: .
+      dockerfile: .ci/Dockerfile
