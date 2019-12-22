@@ -8,3 +8,5 @@ services:
     build:
       context: .
       dockerfile: .ci/Dockerfile
+    ports:
+      - "5000:5000"

@@ -6,6 +6,7 @@ authors = ["Simone <simone.biffi.91@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
+Flask = "^1.1.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"

@@ -1,2 +1,3 @@
 #!/bin/bash
-echo "Hello world"
+export FLASK_ENV=development
+python src/python_boilerplate/hello.py
