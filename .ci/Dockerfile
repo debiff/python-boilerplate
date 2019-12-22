@@ -1,4 +1,4 @@
-FROM python:3.7.0
+FROM python:3.7-slim-buster
 
 WORKDIR /app
 RUN pip install poetry
@@ -8,7 +8,7 @@ ADD pyproject.toml .
 
 RUN poetry install --no-dev
 
+COPY .ci/entrypoint.sh .
 COPY src .
 
-ENTRYPOINT ["entrypoint.sh"]
-CMD
+ENTRYPOINT ["/app/entrypoint.sh"]
