@@ -2,3 +2,5 @@
 \.idea/
 
 src/python_boilerplate/__pycache__/
+
+tests/__pycache__/
