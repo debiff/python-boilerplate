@@ -1,4 +1,4 @@
-from python_boilerplate import __version__
+from src.python_boilerplate import __version__
 
 
 def test_version():
