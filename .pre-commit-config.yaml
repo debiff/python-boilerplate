@@ -24,4 +24,4 @@
     - id: black
       language_version: python3.7
       args: [--check]
-      stages: [commit, manual]
+      stages: [manual]
